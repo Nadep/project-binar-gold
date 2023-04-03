@@ -17,13 +17,17 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <br></br><br></br>
+      {/* <br></br><br></br> */}
       <Hero />
       <br></br><br></br>
       <br></br><br></br>
       <footer />
+<<<<<<< HEAD
       <Hero2 />
       <WhyUs />
+=======
+      {/* <Hero2 /> */}
+>>>>>>> acf819474a357ae1573db77f35ca056dd3b34f81
       {/* <Card description="Siapapun tolongin gua dalam membuat project ini" reviewer="Nadia" />
       <Card description="Siapapun tolongin gua dalam membuat project ini" reviewer="Frendi" />
       <Card description="Siapapun tolongin gua dalam membuat project ini" reviewer="Davina" /> */}

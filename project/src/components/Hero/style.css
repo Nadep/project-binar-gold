@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (min-width:992px){
     .hero {
         background-color: #f1f3ff;
@@ -9,4 +10,65 @@
 .hero {
     background-color: #f1f3ff;
     padding-top: 136px;
+=======
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.Hero {
+  padding-top: 136px;
+  padding-left: 300px;
+  text-align: left;
+  font-size: large;
+}
+
+.container {
+  position: absolute;
+  width: 568;
+  height: 108px;
+  left: 136px;
+  top: 177px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+.padding-custom {
+    padding: 118px 136px 20px;
+
+}
+
+.car {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  bottom: 0%;
+  right: 0%;
+  background-position-y: 150px;
+  border-bottom-width: 10px;
+}
+
+.car-style {
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  height: 250px;
+  background-color: #0d28a6;
+  width: 100%;
+  border-top-left-radius: 100px;
+}
+
+.car-img-wrapper {
+    position: absolute;
+    bottom: -40px
+>>>>>>> acf819474a357ae1573db77f35ca056dd3b34f81
 }
