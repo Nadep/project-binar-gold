@@ -16,12 +16,12 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <br></br><br></br>
+      {/* <br></br><br></br> */}
       <Hero />
       <br></br><br></br>
       <br></br><br></br>
       <footer />
-      <Hero2 />
+      {/* <Hero2 /> */}
       {/* <Card description="Siapapun tolongin gua dalam membuat project ini" reviewer="Nadia" />
       <Card description="Siapapun tolongin gua dalam membuat project ini" reviewer="Frendi" />
       <Card description="Siapapun tolongin gua dalam membuat project ini" reviewer="Davina" /> */}
