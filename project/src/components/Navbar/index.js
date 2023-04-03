@@ -1,6 +1,9 @@
 import React from 'react'
 import "./style.css"
 import logoImg from '../Navbar/logo.png'
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Offcanvas from 'react-bootstrap/Offcanvas';
 
 const Navbar = () => {
     return (

@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Hero2 from "./components/Hero2";
 // import SearchCar from "./pages/SearchCar";
 import Select from "./components/Select";
+import WhyUs from "./components/WhyUS";
 
 
 //props
@@ -22,6 +23,7 @@ const App = () => {
       <br></br><br></br>
       <footer />
       <Hero2 />
+      <WhyUs />
       {/* <Card description="Siapapun tolongin gua dalam membuat project ini" reviewer="Nadia" />
       <Card description="Siapapun tolongin gua dalam membuat project ini" reviewer="Frendi" />
       <Card description="Siapapun tolongin gua dalam membuat project ini" reviewer="Davina" /> */}
