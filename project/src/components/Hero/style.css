@@ -1,16 +1,16 @@
-<<<<<<< HEAD
-@media (min-width:992px){
-    .hero {
-        background-color: #f1f3ff;
-        padding-top: 136px; 
-        padding-left: 300px;
-    }
+@media (min-width: 992px) {
+  .hero {
+    background-color: #f1f3ff;
+    padding-top: 136px;
+    padding-left: 300px;
+  }
 }
 
 .hero {
-    background-color: #f1f3ff;
-    padding-top: 136px;
-=======
+  background-color: #f1f3ff;
+  padding-top: 136px;
+}
+
 h1 {
   font-size: 36px;
   font-weight: bold;
@@ -43,8 +43,7 @@ p {
 }
 
 .padding-custom {
-    padding: 118px 136px 20px;
-
+  padding: 118px 136px 20px;
 }
 
 .car {
@@ -68,7 +67,6 @@ p {
 }
 
 .car-img-wrapper {
-    position: absolute;
-    bottom: -40px
->>>>>>> acf819474a357ae1573db77f35ca056dd3b34f81
+  position: absolute;
+  bottom: -40px;
 }
