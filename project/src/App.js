@@ -8,7 +8,8 @@ import Footer from "./components/Footer";
 import Hero2 from "./components/Hero2";
 // import SearchCar from "./pages/SearchCar";
 import Select from "./components/Select";
-import WhyUs from "./components/WhyUS";
+import WhyUs from "./components/WhyUs";
+import Testimonial from "./components/Testimonial";
 
 
 //props
@@ -16,14 +17,12 @@ import WhyUs from "./components/WhyUS";
 const App = () => {
   return (
     <div>
-      <Navbar />
-      {/* <br></br><br></br> */}
+      <Navbar />  
       <Hero />
-      <br></br><br></br>
-      <br></br><br></br>
       <footer />
       <Hero2 />
       <WhyUs />
+      <Testimonial />
       {/* <Hero2 /> */}
       {/* <Card description="Siapapun tolongin gua dalam membuat project ini" reviewer="Nadia" />
       <Card description="Siapapun tolongin gua dalam membuat project ini" reviewer="Frendi" />
