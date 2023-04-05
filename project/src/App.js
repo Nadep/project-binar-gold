@@ -22,7 +22,6 @@ const App = () => {
       <br></br><br></br>
       <br></br><br></br>
       <footer />
-<<<<<<< HEAD
       <Hero2 />
       <WhyUs />
 =======
