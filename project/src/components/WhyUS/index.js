@@ -3,7 +3,7 @@ import React from "react";
 
 function WhyUs() {
     return(
-        <div className="container section3">
+        <div className="container WhyUS3">
             <div id="why-us-1">Why Us?</div>
             <div id="why-us-2">Mengapa harus pilih Binar Car Rental?</div>
 

@@ -1,17 +1,19 @@
-import React from 'react'
-import './style.css'
-import { NavLink } from 'react-router-dom'
-import MbaImg from './MbaImg.png';
+import React from "react"
+import "./style.css"
+import MbaImg from "./MbaImg.jpg";
 
 const Hero2 = () => {
     return (
         <div id="Hero2-section">
             <div class="containerHero2">
                 <div class="col-lg-6 align-selfcenter">
-                    <img src={MbaImg} alt= "Mba" id="women" style={{width:"375"}} />
+                    <br></br>
+                    <br></br>
+                    <img src={MbaImg} alt= "Mba" id="women" style={{width:"75%"}} />
                 </div>
 
 <div className="col-lg-6">
+    <br></br>
                 <h2>Best Car Rental for any kiind of trip in Lampung</h2>
                 <br />
                 <h6>
