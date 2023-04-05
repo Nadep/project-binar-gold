@@ -1,7 +1,11 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+<<<<<<< HEAD
 import "./style.css" 
+=======
+// import "/Users/alysaastry/Desktop/binar-car-rental/project/src/components/./Card/style.css"
+>>>>>>> a5ed45d293412bb817e499fcac04e840cced1ca5
 
 const settings = {
   centerPadding: '30px',
