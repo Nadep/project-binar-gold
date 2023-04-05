@@ -1,76 +1,77 @@
-import { useState } from "react";
-import Textfield from "../Textfield";
-import Select from "../Select";
-import { catOptions, hargaOptions, statusOptions } from "./../../constants";
+// import { useState } from "react";
+// import Textfield from "../Textfield";
+// import Select from "../Select";
+// import { catOptions, hargaOptions, statusOptions } from "./../../constants";
+// import FormInput from "../FormInput"
 
-const FormInput = () => {
-    const [valueCategory, setCategory] = useState("");
-    const [valueHarga, setHarga] = useState("");
-    const [valueStatus, setStatus] = useState("");
-    const [valueNamaMobil, setNamaMobil] = useState("");
-    const [displayResult, setDisplayResult] = useState(false);
+// const FormInput = () => {
+//     const [valueCategory, setCategory] = useState("");
+//     const [valueHarga, setHarga] = useState("");
+//     const [valueStatus, setStatus] = useState("");
+//     const [valueNamaMobil, setNamaMobil] = useState("");
+//     const [displayResult, setDisplayResult] = useState(false);
 
-    console.log({valueNamaMobil})
+//     console.log({valueNamaMobil})
     
-    const handleOnClick = () => {
-        setDisplayResult(true);
-    };
+//     const handleOnClick = () => {
+//         setDisplayResult(true);
+//     };
 
-    return (
-        <div style={{ margin: "32px" }}>
-            <Textfield
-                labelValue={"Nama Mobil"}
-                value={valueNamaMobil}
-                onChange={setNamaMobil}
-            />
-            <Select
-                labelValue={"Kategori"}
-                items={catOptions}
-                onChange={setCategory}
-                value={valueCategory}
-            />
-            <Select
-                labelValue={"Harga"}
-                items={hargaOptions}
-                onChange={setHarga}
-                value={valueHarga}
-            />
-            <Select
-                labelValue={"Status"}
-                items={statusOptions}
-                onChange={setStatus}
-                value={valueStatus}
-            />
+//     return (
+//         <div style={{ margin: "32px" }}>
+//             <Textfield
+//                 labelValue={"Nama Mobil"}
+//                 value={valueNamaMobil}
+//                 onChange={setNamaMobil}
+//             />
+//             <Select
+//                 labelValue={"Kategori"}
+//                 items={catOptions}
+//                 onChange={setCategory}
+//                 value={valueCategory}
+//             />
+//             <Select
+//                 labelValue={"Harga"}
+//                 items={hargaOptions}
+//                 onChange={setHarga}
+//                 value={valueHarga}
+//             />
+//             <Select
+//                 labelValue={"Status"}
+//                 items={statusOptions}
+//                 onChange={setStatus}
+//                 value={valueStatus}
+//             />
 
-            <button
-                onClick={handleOnClick}
-                type="button"
-                name=""
-                id=""
-                className="btn btn-primary btn-lg btn-block"
-            >
-                Cari Mobil
-            </button>
+//             <button
+//                 onClick={handleOnClick}
+//                 type="button"
+//                 name=""
+//                 id=""
+//                 className="btn btn-primary btn-lg btn-block"
+//             >
+//                 Cari Mobil
+//             </button>
 
-            <br />
-            <hr />
+//             <br />
+//             <hr />
 
-            <div>
-                <h3>Result</h3>
+//             <div>
+//                 <h3>Result</h3>
 
-                {displayResult && (
-                        <div>
-                            <p>Nama Mobil: {valueNamaMobil}</p>
-                            <p>Kategori Mobil: {valueCategory}</p>
-                            <p>Harga Mobil: {valueHarga}</p>
-                            <p>Status Mobil: {valueStatus}</p>
-                        </div>
-                    )}
-            </div>
-        </div>
-    );
-};
+//                 {displayResult && (
+//                         <div>
+//                             <p>Nama Mobil: {valueNamaMobil}</p>
+//                             <p>Kategori Mobil: {valueCategory}</p>
+//                             <p>Harga Mobil: {valueHarga}</p>
+//                             <p>Status Mobil: {valueStatus}</p>
+//                         </div>
+//                     )}
+//             </div>
+//         </div>
+//     );
+// };
 
-export default FormInput;
+// export default FormInput;
 
 

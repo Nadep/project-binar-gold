@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { NavLink } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import MbaImg from "./img_service.png";
 import checkIcon from "./check.svg";
 

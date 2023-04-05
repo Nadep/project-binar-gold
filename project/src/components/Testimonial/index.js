@@ -1,11 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-<<<<<<< HEAD
-import "./style.css" 
-=======
-// import "/Users/alysaastry/Desktop/binar-car-rental/project/src/components/./Card/style.css"
->>>>>>> a5ed45d293412bb817e499fcac04e840cced1ca5
+import Cewe from "../Testimonial/Cewe.png";
 
 const settings = {
   centerPadding: '30px',
@@ -30,6 +26,7 @@ const Testimonial = () => {
             adipsipicing elit, sed do elusmod lorem ipsum dolor sit amat, <br></br>
             dolor sit amet, consectetur adipiscing eli"</h4>
             <p class="card-text">John Dee, 32, Bromo</p>
+            <img src={Cewe.png} width="60px" height={"auto"} />
           </div>
         </div>
 

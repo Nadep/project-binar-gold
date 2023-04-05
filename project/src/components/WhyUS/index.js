@@ -29,17 +29,10 @@ const whyUsData = [
 ];
 
 function WhyUs() {
-<<<<<<< HEAD
-    return(
-        <div className="container WhyUS3">
-            <div id="why-us-1">Why Us?</div>
-            <div id="why-us-2">Mengapa harus pilih Binar Car Rental?</div>
-=======
   return (
     <div style={{ margin: "8em" }}>
       <div id="why-us-1" className="why-us">Why Us?</div>
       <div id="why-us-2" className="why-question">Mengapa harus pilih Binar Car Rental?</div>
->>>>>>> a5ed45d293412bb817e499fcac04e840cced1ca5
 
       <div style={{ display: "flex", gap: "5em" }}>
         {whyUsData.map(({ icon, title, desc }, idx) => (
